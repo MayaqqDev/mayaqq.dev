@@ -194,16 +194,16 @@ a {
     z-index: 300;
 }
 
+.has-tooltip > .tooltip {
+    display: none;
+}
+
 .has-tooltip:hover > .tooltip {
     display: block;
 }
 
 .has-tooltip {
     position: relative;
-}
-
-.has-tooltip > .tooltip {
-    display: none;
 }
 
 /* Colors */
