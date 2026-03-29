@@ -89,6 +89,7 @@ p, ul, ol, dl, h1, h2, h3, h4, h5, h6 {
 }
 
 #friends {
+    text-align: center;
     grid-area: friends;
 }
 
@@ -164,6 +165,45 @@ a {
     padding-bottom: 15px;
     margin-bottom: 50px;
     border-bottom: 0.5rem dotted var(--text);
+}
+
+.tooltip {
+    color: var(--text);
+    position: absolute;
+    left: 50%;
+    top: -1rem;
+    transform: translate(-50%, -100%);
+    border-radius: 2px;
+    background-color: var(--base);
+    font-size: smaller;
+    padding-bottom: 0.35rem;
+    font-weight: bold;
+    text-wrap: nowrap;
+    z-index: 299;
+}
+
+.tooltip:after {
+    content: ' ';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: .6rem;
+    height: .6rem;
+    transform: translate(-50%, 50%) rotate(45deg);
+    background-color: var(--base);
+    z-index: 300;
+}
+
+.has-tooltip:hover > .tooltip {
+    display: block;
+}
+
+.has-tooltip {
+    position: relative;
+}
+
+.has-tooltip > .tooltip {
+    display: none;
 }
 
 /* Colors */
