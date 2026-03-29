@@ -160,11 +160,30 @@ a {
 }
 
 .projects {
-    width: 660px;
+    width: 100%;
     border-color: var(--text);
     padding-bottom: 15px;
     margin-bottom: 50px;
     border-bottom: 0.5rem dotted var(--text);
+}
+
+.blogs {
+    width: 100%;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+}
+
+.blogs-desc {
+    width: 100%;
+    border-color: var(--text);
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+    border-bottom: 0.5rem dotted var(--text);
+}
+
+.blog-title {
+    font-size: large;
+    font-weight: bold;
 }
 
 .tooltip {
@@ -206,6 +225,20 @@ a {
     position: relative;
 }
 
+/* Blog Styling */
+.blogpost-title {
+
+}
+
+.blogpost-desc {
+    padding-top: 10px;
+    width: 100%;
+    border-color: var(--text);
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+    border-bottom: 0.5rem dotted var(--text);
+}
+
 /* Colors */
 
 .blue {
@@ -238,4 +271,8 @@ a {
 
 .maroon {
     color: var(--maroon);
+}
+
+.mauve {
+    color: var(--mauve);
 }
