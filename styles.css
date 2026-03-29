@@ -235,8 +235,11 @@ a {
     width: 100%;
     border-color: var(--text);
     padding-bottom: 15px;
-    margin-bottom: 50px;
     border-bottom: 0.5rem dotted var(--text);
+}
+
+.blogpost-text {
+    white-space: pre-wrap;
 }
 
 /* Colors */
