@@ -249,6 +249,13 @@ a {
     white-space: pre-wrap;
 }
 
+.blog-attributes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
 /* Colors */
 
 .blue {
