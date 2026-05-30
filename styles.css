@@ -12,6 +12,7 @@
     --surface: #313244;
     --green: #a6e3a1;
     --maroon: #eba0ac;
+    --teal: #94e2d5;
 }
 
 html {
@@ -295,4 +296,8 @@ a {
 
 .mauve {
     color: var(--mauve);
+}
+
+.teal {
+    color: var(--teal);
 }
